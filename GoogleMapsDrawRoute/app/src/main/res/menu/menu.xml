@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/dibujarRuta"
+        android:icon="@drawable/volver"
+        android:title="dibujar"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/valorarH"
+        android:icon="@drawable/valorar"
+        android:title="valorar"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/comentarioH"
+        android:icon="@drawable/comentario"
+        android:title="comentarioH"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/informacion"
+        android:icon="@drawable/informacion"
+        android:title="informacion"
+        app:showAsAction="always"
+        />
+
+</menu>
